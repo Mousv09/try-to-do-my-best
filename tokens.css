@@ -1,0 +1,85 @@
+/* Design Tokens - CSS Custom Properties */
+
+:root {
+
+  /* Colors */
+  --color--colors-primary-light: #4F46E5;
+  --color--colors-primary-pressed-light: #4338CA;
+  --color--colors-primary-active-light: #3730A3;
+  --color--colors-primary-disabled-light: #C7D2FE;
+  --color--colors-background-light: #FFFFFF;
+  --color--colors-background-surface-light: #F9FAFB;
+  --color--colors-text-primary-light: #111827;
+  --color--colors-text-secondary-light: #6B7280;
+  --color--colors-text-disabled-light: #9CA3AF;
+  --color--colors-status-error-light: #DC2626;
+  --color--colors-status-success-light: #16A34A;
+  --color--colors-status-warning-light: #D97706;
+  --color--colors-status-info-light: #0EA5E9;
+
+  /* Typography */
+  /* FontFamily */
+  --light-typography-fontFamilies-main: Inter;
+  --light-typography-fontFamilies-display: Poppins;
+
+  /* FontSize */
+  --light-typography-fontSizes-sm: 14px;
+  --light-typography-fontSizes-md: 16px;
+  --light-typography-fontSizes-lg: 20px;
+  --light-typography-fontSizes-xl: 24px;
+
+  /* FontWeight */
+  --light-typography-fontWeights-regular: 400;
+  --light-typography-fontWeights-medium: 500;
+  --light-typography-fontWeights-bold: 700;
+
+  /* LineHeight */
+  --light-typography-lineHeights-tight: 1.25;
+  --light-typography-lineHeights-normal: 1.5;
+  --light-typography-lineHeights-relaxed: 1.625;
+
+
+  /* Spacing */
+  --light-spacing-sm: 8px;
+  --light-spacing-md: 16px;
+  --light-spacing-lg: 24px;
+  --light-spacing-xl: 32px;
+
+  /* Sizing */
+  --light-sizing-buttonHeight: 44px;
+  --light-sizing-inputHeight: 48px;
+  --light-sizing-cardHeight: 120px;
+  --light-sizing-sidebarWidth: 280px;
+  --light-sizing-modalWidth: 400px;
+
+  /* Border Radius */
+  --light-borderRadius-sm: 4px;
+  --light-borderRadius-md: 8px;
+  --light-borderRadius-lg: 16px;
+  --light-borderRadius-full: 9999px;
+
+  /* Borders */
+  --light-border-thin: 1px;
+  --light-border-medium: 1.5px;
+  --light-border-thick: 2px;
+
+  /* Shadows */
+  --light-shadows-sm: 0px 1px 3px 0px #000000;
+  --light-shadows-md: 0px 4px 6px -1px #000000;
+
+  /* Z-Indices */
+  --light-zIndex-dropdown: 1000;
+  --light-zIndex-modal: 1050;
+  --light-zIndex-tooltip: 1100;
+
+  /* Transitions */
+  --light-transitions-fast: 150ms;
+  --light-transitions-normal: 200ms;
+  --light-transitions-slow: 300ms;
+
+  /* Other */
+  --light-icons-sm: 16;
+  --light-icons-md: 20;
+  --light-icons-lg: 24;
+}
+
